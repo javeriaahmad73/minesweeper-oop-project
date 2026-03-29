@@ -3,6 +3,10 @@ from cell import Cell
 import settings
 import utilities
 
+def restart_game():
+    root.destroy()   # closes current window
+    import main      # runs the game again
+
 
 root = Tk()
 #override the settings of window
@@ -18,6 +22,14 @@ top_frame=Frame(
     height=utilities.height_perct(25)
     )
 top_frame.place(x=0,y=0)
+restart_button = Button(
+    top_frame,
+    text="Restart",
+    width=10,
+    height=2,
+    command=restart_game
+)
+restart_button.place(x=10, y=10)
 
 game_title=Label(
     top_frame,
