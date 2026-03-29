@@ -27,9 +27,11 @@ Technologies Used
 - `utilities.py` → Helper functions
 
   Modifications:
+  
   -addition of restart button
   
   Learning Outcome
+  
   This project demonstrates how OOP concepts are applied in real-world applications and helps build a structured, maintainable Python program.
 
  
