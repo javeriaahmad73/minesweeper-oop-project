@@ -1,3 +1,4 @@
+##Tkinter is the standard GUI (Graphical User Interface) library for Python.
 from tkinter import *
 from cell import Cell
 import settings
@@ -7,7 +8,7 @@ def restart_game():
     root.destroy()   # closes current window
     import main      # runs the game again
 
-
+##Tk is a class from the tkinter library.
 root = Tk()
 #override the settings of window
 root.configure(bg="black")
