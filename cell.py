@@ -15,6 +15,8 @@ class Cell:
         self.is_opened=False
         self.is_mine_candidate=False
         self.cell_btn_object=None
+
+        #position of  the cell in grid
         self.x=x
         self.y=y
 
