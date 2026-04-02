@@ -3,9 +3,10 @@ import random #random has very specific  method that is responsible  to pick ran
 import settings
 import ctypes
 from tkinter import messagebox
-import sys
+import sys  #import sys for system level operations(like exiting program)
 
 class Cell:
+    # class_level list to store all cell objects
     all=[]
     cell_count=settings.CELL_COUNT
     cell_count_label_object=None
