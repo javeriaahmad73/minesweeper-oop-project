@@ -16,9 +16,11 @@ root.geometry(f'{settings.width}x{settings.height}')
 root.title("Minesweeper Game")
 root.resizable(False,False)
 
+
+#create a top frame attached to the root window
 top_frame=Frame(
     root,
-    bg='red', #change later to black
+    bg='red', 
     width=settings.width,
     height=utilities.height_perct(25)
     )
